@@ -1,0 +1,164 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.amigo.Input$PlaceholderFragment" >
+
+    <ImageButton
+        android:id="@+id/ibW"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/edt1"
+        android:layout_alignTop="@+id/ibM"
+        android:background="#ff0000"
+        android:src="@drawable/wm" />
+
+    <TextView
+        android:id="@+id/naV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="37dp"
+        android:text="Name : "
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edt4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/naV"
+        android:layout_alignBottom="@+id/naV"
+        android:layout_alignLeft="@+id/edt3"
+        android:layout_alignRight="@+id/edt3"
+        android:ems="10"
+        android:inputType="text"
+        android:nextFocusDown="@id/edt3" >
+
+        <requestFocus />
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/edt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView4"
+        android:layout_alignLeft="@+id/edt1"
+        android:layout_alignRight="@+id/edt1"
+        android:ems="10"
+        android:inputType="number"
+        android:nextFocusDown="@id/edt1" />
+
+    <EditText
+        android:id="@+id/edt1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_toRightOf="@+id/ibM"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/edt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignLeft="@+id/edt2"
+        android:layout_alignRight="@+id/edt2"
+        android:ems="10"
+        android:inputType="number"
+        android:nextFocusDown="@id/edt2" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/edt3"
+        android:layout_marginTop="25dp"
+        android:text="Height :"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="25dp"
+        android:text="Weight : "
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/naV"
+        android:layout_below="@+id/edt4"
+        android:layout_marginTop="25dp"
+        android:text="Age : "
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/cM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/cW"
+        android:layout_alignBottom="@+id/cW"
+        android:layout_alignRight="@+id/naV"
+        android:enabled="false"
+        android:selectAllOnFocus="false" />
+
+    <ImageButton
+        android:id="@+id/ibM"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_below="@+id/cM"
+        android:background="#ff0000"
+        android:src="@drawable/m" />
+
+    <Button
+        android:id="@+id/rese"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/sb"
+        android:layout_alignBottom="@+id/sb"
+        android:layout_alignLeft="@+id/ibW"
+        android:layout_alignRight="@+id/ibW"
+        android:text="Reset" />
+
+    <Button
+        android:id="@+id/sb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ibM"
+        android:layout_alignRight="@+id/ibM"
+        android:layout_below="@+id/ibM"
+        android:layout_marginTop="33dp"
+        android:text="Start" />
+
+    <CheckBox
+        android:id="@+id/cW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/ibW"
+        android:layout_below="@+id/edt1"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="16dp"
+        android:enabled="false"
+        android:selectAllOnFocus="false" />
+
+</RelativeLayout>
