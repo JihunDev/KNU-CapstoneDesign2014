@@ -1,0 +1,66 @@
+repo_name: JihunDev/KNU-CapstoneDesign2014
+report_id: 0fbc7ea9c084e96ca7cf207f92a7ce35
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-05T08:21:01+00:00'
+requested_by: JihunDev
+provider: github
+branch: master
+detected_tools_count: 5
+tools:
+- name: C++
+  description: Has imperative, object-oriented and generic programming features, while
+    also providing the facilities for low level memory manipulation
+  website_url: http://www.cplusplus.com/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1049/cplusplus.png
+  detection_source_url: https://github.com/JihunDev/KNU-CapstoneDesign2014
+  detection_source: Repo Metadata
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/JihunDev/KNU-CapstoneDesign2014
+  detection_source: Repo Metadata
+- name: pgvector
+  description: Open-source vector similarity search for Postgres
+  website_url: https://github.com/pgvector/pgvector/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Database Tools
+  image_url: https://img.stackshare.io/service/109221/default_b888cdf5617d936aa6aacf130911906955508639.png
+  detection_source_url: https://github.com/JihunDev/KNU-CapstoneDesign2014/blob/master/App/proguard-project.txt
+  detection_source: App/proguard-project.txt
+  last_updated_by: Jihun Kim
+  last_updated_on: 2018-06-01 15:20:42.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/JihunDev/KNU-CapstoneDesign2014
+  detection_source: Repo Metadata
+- name: LangChain
+  description: Build AI apps with LLMs through composability
+  website_url: https://github.com/hwchase17/langchain
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Model Tools
+  image_url: https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg
+  detection_source_url: https://github.com/JihunDev/KNU-CapstoneDesign2014/blob/master/App/proguard-project.txt
+  detection_source: App/proguard-project.txt
+  last_updated_by: Jihun Kim
+  last_updated_on: 2018-06-01 15:20:42.000000000 Z
